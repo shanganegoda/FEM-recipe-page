@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: RGB(243 229 216);
+}
+
+.recipe-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+}
+
+.recipe-card img {
+    max-width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+.title-header {
+    margin-top: 20px;
+}
+
+.title-header p {
+    margin-top: 20px;
+}
+
+.prep-time-card {
+    padding: 20px;
+    margin-top: 20px;
+    background: hsl(330, 100%, 98%);
+}
+
+.prep-time-card h3 {
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 10px;
+}
+
+.prep-time-card li {
+    margin-bottom: 10px;
+}
+
+li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.time-list {
+    padding-left: 25px;
+}
+
+.check {
+    font-weight: 600;
+    margin-left: 15px;
+}
+
