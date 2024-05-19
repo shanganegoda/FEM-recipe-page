@@ -1,3 +1,17 @@
+:root {
+    /* PRIMARY */
+    --nutmeg: hsl(14, 45%, 36%);
+    --darkraspberry: hsl(332, 51%, 32%);
+
+    /*NEUTRAL*/
+    --white: hsl(0, 0%, 100%);
+    --roseWhite: hsl(330, 100%, 98%);
+    --bg-body: hsl(30, 54%, 90%);
+    --lightGrey: hsl(30, 18%, 87%);
+    --wengeBrown: hsl(30, 10%, 34%);
+    --darkCharcoal: hsl(24, 5%, 18%);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,9 +20,11 @@
 
 body {
     font-family: "Outfit", sans-serif;
+    background: var(--bg-body);
 }
 
-h1,h2 {
+h1,
+h2 {
     font-family: "Young Serif", serif;
     font-weight: 200;
 }
@@ -17,17 +33,12 @@ h2 {
     color: hsl(14, 45%, 36%);
 }
 
-p {
-    font-size: 16px;
-}
-
-.background {
+.wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
-    background: hsl(30, 54%, 90%);
 }
 
 .recipe-card {
